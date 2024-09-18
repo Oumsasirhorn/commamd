@@ -1,0 +1,23 @@
+docker -v
+docker ps 
+docker ps --all 
+docker run hello-world
+docker run busybox echo 'Hello world in docker!'
+docker run busybox ls
+docker ps
+docker stop ไอดี
+docker run busyboxdocker
+docker system prune
+docker run -p 80:80 nginx
+docker run -p 80:80 nginx
+docker rm Id
+docker stop Id
+docker run --name mynginx -d -p 3000:80 nginx
+docker logs d5632b573fafef1050ea8975404d71348c6065a1473772ad9ddb7058358f7cff
+docker logs -f d5632b573fafef1050ea8975404d71348c6065a1473772ad9ddb7058358f7cff
+docker stop mynginx
+docker system info
+docker system df  
+docker images
+docker image rm 
+docker images inspect nginx
